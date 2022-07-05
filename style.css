@@ -1,0 +1,159 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.site {
+      height: 1000vh;
+      width: 100%;
+      background: #242F3D;
+}
+
+.logo{
+      width: 25%;
+      display: flex;
+      align-items: center;
+}
+
+.logo img {
+      display: flex;
+      align-items: center;
+}
+
+.navbar {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.navbar ul {
+      width: 45%;
+      display: flex;
+      justify-content: space-evenly; 
+      align-items: center;
+      list-style: none;
+}
+
+.navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 25px;
+}
+
+.lang_sing {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.lang_sing select {
+      background: #333F3D;
+      color: #fff;
+      border: none;
+      margin-right: 30px;
+      border-radius: 7px;
+      width: 55px;
+      height: 25px;
+}
+
+.navbar .lang_sing select:focus {
+      outline: none;
+}
+
+.showcase {
+      height: 183px;
+      display: flex;align-items: center;
+      justify-content: center;
+      margin: 35px;
+      width: 559px;
+      left: 100px;
+      top: 194px;
+}
+
+.showcase p {
+      font-family: Inter;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 61px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #fff ;
+}
+
+.lang_sing button {
+      width: 75px;
+      border-radius: 10px;
+      height: 35px;
+      border: none;
+      transform: rotateX(500deg);
+}
+
+.lang_sing button:hover {
+      width: 75px;
+      border-radius: 10px;
+      height: 35px;
+      transform: rotateX(5deg);
+      border: none;
+}
+
+
+.heat {
+      float: right;
+      margin-top: -250px;
+      margin-left: -950px;
+}
+
+.tri {
+      margin-left: -550px;
+      margin-top: 10%;
+}
+
+.you {
+      margin-left: -500px;
+      margin-top: -25px;
+}
+
+.hello {
+      width: 525px;
+      height: 90px;
+      color: #fff;
+      margin: 15px;
+      font-size: 20px;
+}
+
+.hello button {
+      width: 40%;
+      border-radius: 9px;
+      margin-top: 45px;
+      height: 50px;
+}
+
+.azik {
+      display: flex;
+      flex-direction: column;
+      float: right;
+            /* height: 0px;
+            width: 88.00000000000009px;
+            left: 1328px;
+            top: 214px;
+            border-radius: nullpx; */
+
+}
+
+.azik img {
+      width: 20px;
+      margin: 10px;
+      margin-left: -50px;
+}
+
+.logo2 {
+      font-size: 40px;
+      background: linear-gradient(#fff, blue);
+      margin-top: 150px;
+}
+.logo2 p {
+      display: flex;
+      justify-content: center;
+}
